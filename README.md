@@ -1,16 +1,29 @@
-# todo
+**Flutter To-Do App**
+ 
+ ToDo app built with Flutter and SQFlite for local data storage.
 
-A new Flutter project.
+**Features:**
 
-## Getting Started
+-Add tasks to your to-do list
 
-This project is a starting point for a Flutter application.
+-Mark tasks as completed
 
-A few resources to get you started if this is your first Flutter project:
+-Delete tasks
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-Clear completed tasks
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Dependencies:**
+
+sqflite - SQLite plugin for Flutter
+
+path - Provides common operations for manipulating file and directory paths
+
+**Usage:**
+
+Add new tasks by typing them into the input field and pressing Enter.
+
+Tap a task to mark it as completed (or unmark it).
+
+Swipe left on a task to delete it.
+
+Use the "Clear Completed" button to remove all completed tasks.
